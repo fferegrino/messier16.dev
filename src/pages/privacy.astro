@@ -1,0 +1,44 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+<BaseLayout title="Privacy Policy" description="Privacy policy for Messier 16 software and games.">
+  <article class="page">
+    <h1>Privacy Policy</h1>
+    <p class="page-lede">Last updated: {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+
+    <div class="prose">
+      <p>
+        Messier 16 (“we”, “our”) respects your privacy. This policy describes how we handle information in relation to our website, apps, and games.
+      </p>
+
+      <h2>Information we collect</h2>
+      <p>
+        We may collect information you provide directly (e.g. when you contact support or sign up for a service), and automatically (e.g. basic usage or crash data in our apps, where applicable and disclosed in the app).
+      </p>
+
+      <h2>How we use it</h2>
+      <p>
+        We use this information to operate and improve our products, respond to you, and comply with the law. We do not sell your personal data.
+      </p>
+
+      <h2>Third parties</h2>
+      <p>
+        Our apps or games may use third-party services (e.g. analytics, stores). Their use of data is governed by their own privacy policies. We only choose providers we consider responsible.
+      </p>
+
+      <h2>Your rights</h2>
+      <p>
+        Depending on where you live, you may have rights to access, correct, or delete your data. Contact us (see Support) to make a request.
+      </p>
+
+      <h2>Changes</h2>
+      <p>
+        We may update this policy from time to time. The “Last updated” date at the top will change when we do. Continued use of our products after changes means you accept the updated policy.
+      </p>
+
+      <p>
+        <strong>Contact:</strong> For privacy-related questions, use the contact details on our <a href={import.meta.env.BASE_URL}>homepage</a> or our <a href={`${import.meta.env.BASE_URL}/support`}>Support</a> page.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

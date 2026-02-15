@@ -255,6 +255,61 @@ h3 {
   margin: 0;
 }
 
+/* Inner pages (privacy, support) */
+.page {
+  padding: 2rem 0 4rem;
+}
+
+.page h1 {
+  margin-bottom: 0.25rem;
+}
+
+.page-lede {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  margin: 0 0 2rem;
+}
+
+.prose {
+  max-width: 42rem;
+}
+
+.prose h2 {
+  font-size: 1.125rem;
+  margin: 2rem 0 0.75rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.prose p {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.prose ul {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+  color: var(--muted);
+}
+
+.prose li {
+  margin-bottom: 0.25rem;
+}
+
+.prose a {
+  text-decoration: underline;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-list li {
+  margin-bottom: 0.5rem;
+}
+
 /* Footer */
 .site-footer {
   position: relative;
@@ -268,6 +323,22 @@ h3 {
   margin: 0;
   font-size: 0.875rem;
   color: var(--muted);
+}
+
+.footer-nav {
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.footer-nav a {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.footer-nav a:hover {
+  color: var(--text);
 }
 
 .site-footer a {
